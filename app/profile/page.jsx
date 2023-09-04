@@ -42,8 +42,9 @@ const MyProfile = () => {
   };
   return (
     <Profile
-      name="My"
-      desc="Welcome to you profile page"
+      name="My Profile"
+      desc="Welcome to your profile page"
+      image={session?.user?.image}
       data={posts}
       handleEdit={handleEdit}
       handleDelete={handleDelete}
